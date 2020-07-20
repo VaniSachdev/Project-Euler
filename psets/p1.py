@@ -1,7 +1,7 @@
 
-''' project euler 
-multiples of 3 & 5
-problem 1 '''
+#  project euler 
+# multiples of 3 & 5
+# problem 1 
 
 def math():
   list = []
