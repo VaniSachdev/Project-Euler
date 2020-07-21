@@ -5,7 +5,7 @@
 import math 
 
 #take 2! 
-# making it faster by using the "2 way table" technique used to find the primes of big numbers 
+# making it faster by using the "2 way table" technique used to factor bigger numbers 
 
 def largest_prime_v2(n):
 
