@@ -10,14 +10,10 @@ import math
 def largest_prime_v2(n):
 
     counter = 2
-    term = 1
     while counter < n:
         if n % counter == 0:
-            term += 1
-            print (term, n, counter)
             n = n/counter
             counter -= 1
-            print (term, n, counter)
         counter += 1
 
     print(n)

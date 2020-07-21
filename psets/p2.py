@@ -23,7 +23,7 @@ def fib():
 		x = y
 		y = x + y
 
-	return fib_total
+	print (fib_total)
 
 
 if __name__ == "__main__":
