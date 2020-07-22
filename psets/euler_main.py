@@ -10,7 +10,7 @@ def load_answer(n):
     elif n == 3:
         p3.largest_prime_v2 (600851475143)
     elif n == 4:
-        p4.large_pal()
+        p4.large_pal_v2()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
