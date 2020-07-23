@@ -3,11 +3,11 @@
 # problem 5
 
 def is_divisble(n):
-    for i in range(1, 21):
+    for i in range(2, 21):
         if n % i != 0:
             return False
-    else:
-        return True 
+    
+    return True 
 
 def calculate():
     number = 20;

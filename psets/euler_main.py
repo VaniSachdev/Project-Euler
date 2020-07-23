@@ -12,6 +12,7 @@ def load_answer(n):
     elif n == 4:
         p4.large_pal_v2()
     elif n == 5:
+        print ("this one takes a while -- sorry!")
         p5.calculate()
     else:
         print("sorry, looks like something is wrong. please try again!")
