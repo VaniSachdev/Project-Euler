@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5
+import p1, p2, p3, p4, p5, p6
 
 
 def load_answer(n):
@@ -14,6 +14,8 @@ def load_answer(n):
     elif n == 5:
         print ("this one takes a while -- sorry!")
         p5.calculate()
+    elif n == 6:
+        p6.sum_square_difference()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
