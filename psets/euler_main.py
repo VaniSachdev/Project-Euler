@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4
+import p1, p2, p3, p4, p5
 
 
 def load_answer(n):
@@ -11,6 +11,8 @@ def load_answer(n):
         p3.largest_prime_v2 (600851475143)
     elif n == 4:
         p4.large_pal_v2()
+    elif n == 5:
+        p5.calculate()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
