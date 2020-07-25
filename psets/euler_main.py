@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5, p6
+import p1, p2, p3, p4, p5, p6, p7
 
 
 def load_answer(n):
@@ -16,6 +16,9 @@ def load_answer(n):
         p5.calculate()
     elif n == 6:
         p6.sum_square_difference()
+    elif n == 7:
+        print ("this one takes a while -- sorry!")
+        p7.calculate_upper_limit_for_nth_prime(10001)
     else:
         print("sorry, looks like something is wrong. please try again!")
 
