@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5, p6, p7, p8, p9
+import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10
 
 
 def load_answer(n):
@@ -23,6 +23,8 @@ def load_answer(n):
         p8.product_in_series()
     elif n == 9:
         p9.triplet()
+    elif n == 10:
+        p10.summation()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
