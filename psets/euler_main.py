@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5, p6, p7, p8
+import p1, p2, p3, p4, p5, p6, p7, p8, p9
 
 
 def load_answer(n):
@@ -21,6 +21,8 @@ def load_answer(n):
         p7.calculate_upper_limit_for_nth_prime(10001)
     elif n == 8:
         p8.product_in_series()
+    elif n == 9:
+        p9.triplet()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
