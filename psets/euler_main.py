@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10
+import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11
 
 
 def load_answer(n):
@@ -24,7 +24,10 @@ def load_answer(n):
     elif n == 9:
         p9.triplet()
     elif n == 10:
+        print ("this one takes a while -- sorry!")
         p10.summation()
+    elif n == 11:
+        p11.largest_product()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
