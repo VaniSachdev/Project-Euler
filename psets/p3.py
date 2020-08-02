@@ -8,15 +8,17 @@ import math
 # making it faster by using the "2 way table" technique used to factor bigger numbers 
 
 def largest_prime_v2(n):
-
+    grid = []
     counter = 2
     while counter < n:
         if n % counter == 0:
             n = n/counter
+            grid.append(n)
             counter -= 1
         counter += 1
-
-    print(n)
+    print (len(grid))
+    print (grid)
+    # print(n)
 
 
 
@@ -49,5 +51,5 @@ def largest_prime_v2(n):
 
 if __name__ == "__main__":
     # largest_prime(600851475)
-    largest_prime_v2 (600851475143)
+    largest_prime_v2 (28)
 
