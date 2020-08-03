@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12
+import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13
 
 
 def load_answer(n):
@@ -30,6 +30,8 @@ def load_answer(n):
         p11.largest_product()
     elif n == 12:
         p12.triangle()
+    elif n == 13:
+        p13.large_sum()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
