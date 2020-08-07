@@ -23,7 +23,7 @@ Also, the notes added aren't very coherent if you're not me; this is more of a d
 |5          |Smallest positive number that is evenly divisible by all of the numbers from 1 to 20        |I have a tendency to try to write everything in one function; use multiple functions and capitalize on the fact that booleans existing           |
 |6         |Difference between the sum of the squares of the first one hundred natural numbers and the square of the sum|N/A|
 |7|10,001st prime number      |[Sieve of Eratosthenes:](https://youtu.be/klcIklsWzrY) used to find all prime numbers up to any given limit (include the optimization of starting from a prime's square); Calculate the upper limit for nth prime with the following formula $$p_n <= n \cdot  log (n) + n \cdot log(log (n))     \\( if n >= 6)$$ |
-|8          |Thirteenth adjacent digits in the 1000-digit number that have the greatest product of a number       |Using reduce (from [library functools](https://docs.python.org/3/library/functools.html)) to iterate and perform functions on a list           |
+|8          |Thirteenth adjacent digits in the 1000-digit number that have the greatest product of this number       |Using reduce (from [library functools](https://docs.python.org/3/library/functools.html)) to iterate and perform functions on a list           |
 |9         |There exists exactly one Pythagorean triplet for which a + b + c = 1000|N/A|
 |10|Sum of all the primes below two million |Used what I learned in Problem 3 (to check if a number is prime only check until sqrt of number)            |
 |11          |Greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid   |Use `‘’’` for multiline strings (`/n` are accounted for by default); Used `.strip()` (to get rid of spaces) and `.splitLines()` (to save each pre `/n` as it’s on element); New one line for loop structure `[return x for i in range(z)]`|
@@ -48,4 +48,4 @@ I consulted/consult the following blogs fairly often:
  - [Radius of a Circle](https://radiusofcircle.blogspot.com) 
 
 
- I also use [Stalk Overflow](https://stackoverflow.com) ,  [Wikipedia](https://www.wikipedia.org) and [Khan Academy](https://www.khanacademy.org). 
+ I also use[Stalk Overflow](https://stackoverflow.com) ,  [Wikipedia](https://www.wikipedia.org) and [Khan Academy](https://www.khanacademy.org). 
