@@ -31,6 +31,7 @@ Also, the notes added aren't very coherent if you're not me; this is more of a d
 |13 |First ten digits of the sum of the following one-hundred 50-digit numbers        |Used map to convert each element in a string to an integer, used reduce & lambda from library functools again to add each element in a large number            |
 |14         |Find a starting number (under one million) that produces the longest chain by the Collatz Problem          |N/A            |
 |15         |Maximum number of lattice routes through a 20×20 grid|Lattice path (only goes right & up/left & down); Assuming (0,0) is the starting point, there exists a [formula](https://en.wikipedia.org/wiki/Binomial_coefficient) relating to the binomial coefficient to calculate all the possible paths to (a,b)|
+|16         |Sum of the digits of the number: $$2^{1000}$$|Learned that [map](https://www.geeksforgeeks.org/python-map-function/) doesn't do what I originally thought it did; read some documentation and learned that it doesn't return a list but instead a map object (an iterator). Other than that, this one was pretty easy.  |
 
 Something I'm seeing a lot is that a lot of the time mathematical formulas exist for these sort of questions and they make life nicer & code faster -- who would've guessed that math and computer science are friends! 
 
