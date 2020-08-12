@@ -34,7 +34,7 @@ Also, the notes added aren't very coherent if you're not me; this is more of a d
 |16         |Sum of the digits of the number: $$ 2^{1000} $$|Learned that [map](https://www.geeksforgeeks.org/python-map-function/) doesn't do what I originally thought it did; read some documentation and learned that it doesn't return a list but instead a map object (an iterator). Other than that, this one was pretty easy.  |
 |17         |Add the length of the numbers (in words) from 1 to 1000 (no spaces, dashes)f |imports save lives! read about a function `num2words`a while ago that spits back a number in words which ended up making this process easier; to get rid of spaces and dashes I created a list with those two chars and used a foor loop + the replace method; if the function num2words didn't exist I would've saved each digit, eleven-nineteen, hundred, etc in seperate lists and used foor loops, boolean flags, and logic-based math to solve |
 |19         |Determine how many Sundays fell on the first of the month during the twentieth century|imports save lives one again! imported calendar, read some documentatoin, and did it pretty easily; was a little confused why my solution wasnt working at first (i assumed the matrix had the 0th element as sunday (it was the 6th); read a few stack overflow posts & figured it out|
-
+|20         |Sum of digits in 100!| N/A|
 
 Something I'm seeing a lot is that a lot of the time mathematical formulas exist for these sort of questions and they make life nicer & code faster -- who would've guessed that math and computer science are friends! 
 
