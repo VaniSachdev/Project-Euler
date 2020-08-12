@@ -1,3 +1,7 @@
+# project euler 
+# counting sundays
+# problem 19
+
 import calendar
 
 def sundays():
