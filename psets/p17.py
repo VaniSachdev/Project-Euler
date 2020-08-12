@@ -16,6 +16,6 @@ def numbers_in_words():
         total = total + len(original)
 
     print (total)
-    
+
 if __name__ == "__main__": 
     numbers_in_words()

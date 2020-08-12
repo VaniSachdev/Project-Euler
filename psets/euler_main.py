@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17 
+import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p19  
 
 
 def load_answer(n):
@@ -41,6 +41,10 @@ def load_answer(n):
         p16.sum_of_digits()
     elif n == 17:
         p17.numbers_in_words()
+    elif n == 18:
+        print ("ah sorry i skipped this one i'll do it soon")
+    elif n == 19:
+        p19.sundays()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
