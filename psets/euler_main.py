@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p19, p20  
+import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p19, p20, p21  
 
 
 def load_answer(n):
@@ -47,6 +47,8 @@ def load_answer(n):
         p19.sundays()
     elif n == 20:
         p20.factorial_sum(100)
+    elif n == 21:
+        p21.amicable_numbers()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
