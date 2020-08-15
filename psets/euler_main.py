@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p19, p20, p21  
+import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p19, p20, p21, p22
 
 
 def load_answer(n):
@@ -49,19 +49,25 @@ def load_answer(n):
         p20.factorial_sum(100)
     elif n == 21:
         p21.amicable_numbers()
+    elif n == 22:
+        p22.names_scores()
     else:
         print("sorry, looks like something is wrong. please try again!")
 
 def total_files():
+
     list = os.listdir("/Users/vanisachdev/Desktop/github/Project-Euler/psets") 
     number_files = len(list) -1
     return number_files
 
 def user_input():
+    x = total_files()
     user_input = input("what problem do you want the answer for? ")
+
     try:
         val = int(user_input)
-        if val > 0 and val <= total_files():
+        print (val)
+        if val > 0 and val <= x:
               print("problem #"+ str(val) + " loading!")
               load_answer(val)
         elif val == 0:
