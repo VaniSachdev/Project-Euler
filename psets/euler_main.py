@@ -1,5 +1,5 @@
 import os
-import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p19, p20, p21, p22
+import p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p19, p20, p21, p22, p25
 
 
 def load_answer(n):
@@ -51,6 +51,13 @@ def load_answer(n):
         p21.amicable_numbers()
     elif n == 22:
         p22.names_scores()
+    elif n == 23:
+        print ("ah sorry i skipped this one i'll do it soon")
+    elif n == 24:
+        print ("ah sorry i skipped this one i'll do it soon")
+    elif n == 25:
+        p25.fib()
+
     else:
         print("sorry, looks like something is wrong. please try again!")
 
@@ -63,7 +70,6 @@ def total_files():
 def user_input():
     x = total_files()
     user_input = input("what problem do you want the answer for? ")
-
     try:
         val = int(user_input)
         print (val)

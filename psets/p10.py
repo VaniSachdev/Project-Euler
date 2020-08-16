@@ -1,6 +1,6 @@
 # project euler 
 # summation of primes
-# problem 7
+# problem 10
 
 #v2
 #sieve of eratosthene was actually slower than v1
